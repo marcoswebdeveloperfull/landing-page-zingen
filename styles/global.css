@@ -58,10 +58,12 @@ html {
   color: var(--text-color-primary);
 
   overflow-x: hidden;
+  scroll-behavior: smooth;  
 }
 
 body {
   background-color: var(--bg-color);
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -117,7 +119,7 @@ img {
 
     --py-base: 1.5rem;
     --py-lg: 2.5rem;
-    --py-xl: 5rem;
+    --py-xl: 1rem;
     
     --px-lg: 2rem;
   }
